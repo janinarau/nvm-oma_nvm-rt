@@ -1,6 +1,6 @@
 CROSS_COMPILER=aarch64-linux-gnu
-GEM5_PATH=/gem/gem5
-NVMAIN_PATH=/gem/nvmain
+GEM5_PATH=/gem/nvm-oma_gem5
+NVMAIN_PATH=/gem/TU-Do_nvmain
 
 CCFLAGS=-Wall -Werror -nostdlib -I. -mstrict-align -include system/config.h -fno-exceptions
 LDFLAGS=-T system/ldscript.ld -nostdlib -static -nostartfiles -N -mstrict-align
